@@ -7,7 +7,9 @@
             * { margin: 0; padding: 0;}
             body { 
                 font-family: sans-serif;
-                background: #9e9e9ea0
+                /*background: #9e9e9ea0*/
+                background-image: url('C:/Users/HP/Desktop/Meat/Resource/wall.jpg');
+                background-size: 25%;
             }
             li { list-style: none;}
             a { text-decoration: none;}
@@ -35,24 +37,25 @@
             #main_nav > ul { 
                 overflow: hidden; 
                 clear: both;
-                margin-left: 120px;
+                margin-left: 90px;
+                font-family: 'Dokdo', cursive;
             }
             #main_nav > ul > li { 
                 float: left;
-                font-size: 130%
+                font-size: 150%
             }
             #main_nav > ul > li > a {
                 display: block;
                 padding: 10px 150px;
-                border-top: 1px solid black;
-                border-bottom: 1px solid black;
+
                 margin-top: 10px;
                 text-align: center;
                 font-weight: bold;
                 -webkit-text-stroke: 1px black;
+                filter: drop-shadow(4px 5px 1px black);
             }
-            a:link { color: green; }
-            a:visited {color: orange;}
+            a:link { color: red; }
+            a:visited {color: gold;}
             #main_nav > ul > li > a:hover {
                 background: black;
                 color: gray;
@@ -71,10 +74,11 @@
                 transition: all 0.1s linear;
                 margin: 5%;
                 margin-right: 13%;
+                filter: drop-shadow(20px 20px 5px rgb(28, 28, 28));
             }
             #pig:hover {
                 transform: scale(1.1);
-                filter: drop-shadow(20px 20px 5px rgb(102, 102, 102));
+                filter: drop-shadow(1px 1px 5px gold);
             }
         </style>
         <!--소-->
@@ -86,10 +90,11 @@
                 transition: all 0.1s linear;
                 margin-top: -34%;
                 margin-left: 12%;
+                filter: drop-shadow(20px 20px 5px rgb(28, 28, 28));
             }
             #cow:hover {
                 transform: scale(1.1);
-                filter: drop-shadow(-20px 20px 5px rgb(102, 102, 102));
+                filter: drop-shadow(1px 1px 5px gold);
                 /*filter:blur(10px);*/
             }
         </style>
@@ -122,21 +127,21 @@
     <body>
         <div id="leolbi">
             <header>
-                <a href="C:/Users/HP/Desktop/Meat/meat.html"><img src="http://drive.google.com/uc?export=view&id=14B1i9tpJUjDTyifKAdovrCeZyhEr81WB" alt="#" id="logo"></a>
+                <a href="https://hanabusa1125.github.io/1234/meat.html"><img src="http://drive.google.com/uc?export=view&id=14B1i9tpJUjDTyifKAdovrCeZyhEr81WB" alt="#" id="logo"></a>
                 <nav id="main_nav">
                     <ul>
                         <li><a href="C:/Users/HP/Desktop/Meat/doko.html">여긴어딘가요?</a></li>
                         <li><a href="C:\Users\HP\Desktop\Meat\syuryu.html">고기의종류</a></li>
-                        <li><a href="#">도움을받은것들</a></li>
+                        <li><a href="C:/Users/HP/Desktop/Meat/help.html">도움을받은것들</a></li>
                     </ul>
                 </nav>
             </header>
         
             <div id="pig">
-                <img src="http://drive.google.com/uc?export=view&id=1BEL4-bjzzaa6qjFFzeqpqs0RbCpG8WHe" style="width: 400px;" alt="#">
+                <a href="file:///C:/Users/HP/Desktop/Meat/pig.html"><img src="http://drive.google.com/uc?export=view&id=1BEL4-bjzzaa6qjFFzeqpqs0RbCpG8WHe" style="width: 400px;" alt="#"></a>
             </div>
             <div id="cow">
-                <a href="C:\Users\HP\Desktop\Meat\syuryu.html"><img src="http://drive.google.com/uc?export=view&id=1wtNg_IZAJ1QJQ9pdaWXbHBZwNe_jtJEP" style="width: 400px;" alt="#"></a>
+                <a href="file:///C:/Users/HP/Desktop/Meat/cow.html"><img src="http://drive.google.com/uc?export=view&id=1wtNg_IZAJ1QJQ9pdaWXbHBZwNe_jtJEP" style="width: 400px;" alt="#"></a>
             </div>
         
             <footer id="main_footer">
